@@ -1,10 +1,10 @@
 import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { formatCurrency } from "../utils/format";
-import "../styles/CheckoutPage.css"; // Tambahkan import CSS
+import "../styles/CheckoutPage.css";
 
 const CheckoutPage = () => {
-  const { state } = useLocation(); // Ambil data dari navigasi
+  const { state } = useLocation();
   const navigate = useNavigate();
 
   if (!state || !state.ticketDetails) {

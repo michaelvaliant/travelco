@@ -1,4 +1,3 @@
-/* CSS Reset */
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +10,6 @@ body {
   color: #333;
 }
 
-/* Search Page Styles */
 .search-page {
   padding: 2rem;
 }

@@ -48,14 +48,12 @@
   margin: 10px 0;
 }
 
-/* Responsif untuk perangkat dengan lebar kurang dari 768px */
 @media (max-width: 768px) {
   .ticket {
     width: 48%;
   }
 }
 
-/* Responsif untuk perangkat dengan lebar kurang dari 480px */
 @media (max-width: 480px) {
   .ticket {
     width: 100%;

@@ -1,5 +1,4 @@
 export const generateToken = (user) => {
-  // Simulasi pembuatan token (bukan implementasi nyata)
   return btoa(JSON.stringify(user));
 };
 

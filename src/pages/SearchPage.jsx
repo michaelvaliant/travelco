@@ -23,7 +23,7 @@ const SearchPage = () => {
   }, []);
 
   const handleSelect = (name) => {
-    navigate(`/details/${name}`); // Navigasi ke halaman detail
+    navigate(`/details/${name}`);
   };
 
   if (loading) return <div>Loading transport options...</div>;

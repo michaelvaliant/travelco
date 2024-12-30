@@ -18,7 +18,7 @@ const DetailPage = () => {
         setTicketDetails(data);
       } catch (error) {
         console.error("Error fetching ticket details", error);
-        setError(true); // Atur error jika API gagal
+        setError(true);
       } finally {
         setLoading(false);
       }
@@ -27,7 +27,7 @@ const DetailPage = () => {
   }, [name]);
 
   const handleCheckout = () => {
-    navigate("/checkout", { state: { ticketDetails } }); // Kirim detail tiket ke halaman checkout
+    navigate("/checkout", { state: { ticketDetails } });
   };
 
   if (loading) return <div className="loading">Loading ticket details...</div>;
